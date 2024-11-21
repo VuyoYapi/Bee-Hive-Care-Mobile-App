@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_about"
+
+            android:title="About"/>
+        <item
+            android:id="@+id/nav_training"
+
+            android:title="Training"/>
+        <item
+            android:id="@+id/nav_wishlist"
+
+            android:title="Wishlist"/>
+        <item
+            android:id="@+id/nav_income_generator"
+
+            android:title="Income-Generator"/>
+        <item
+            android:id="@+id/nav_contact"
+
+            android:title="Contact"/>
+        <item
+            android:id="@+id/nav_donation_options"
+
+            android:title="Donations-Options"/>
+        <item
+            android:id="@+id/nav_gallery"
+
+            android:title="Gallery"/>
+
+
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:title="Login"
+                android:iconTint="@color/green"
+                android:titleTextColor="@color/green"/>
+            <item
+                android:id="@+id/nav_donate"
+                android:title="Donate"
+                android:iconTint="@color/green"
+                android:titleTextColor="@color/green"/>
+
+        </menu>
+
+    </item>
+
+</menu>

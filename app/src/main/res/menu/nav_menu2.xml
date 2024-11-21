@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home1"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_donateSystem"
+            android:title="Donate System" />
+        <item
+            android:id="@+id/nav_point"
+            android:title="Point" />
+        <item
+            android:id="@+id/nav_graph"
+            android:title="Graph" />
+    </group>
+
+    <item android:title="Options">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:title="Logout" />
+            <item
+                android:id="@+id/nav_donate"
+                android:title="Donate" />
+        </menu>
+    </item>
+</menu>

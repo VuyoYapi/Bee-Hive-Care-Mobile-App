@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home2Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="397dp"
+        android:layout_height="198dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="291dp"
+        android:layout_height="156dp"
+        android:src="@drawable/logo78"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view6"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view6"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="199dp"
+        android:layout_height="86dp"
+        android:text="Donation System"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.286" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="346dp"
+        android:layout_height="390dp"
+        android:text="Donating Points: Each time a user donates, they earn 1 point, which is stored in their profile on Firebase Realtime Database. The donation activity updates their points by incrementing the count and storing it under the user's unique ID.  Achievement Levels: Based on the total points, users unlock different achievement titles:  Starter: Awarded to users with 1 or more points. Collector: Earned when a user reaches 5 points. Packrat: Granted once a user has 10 points or more. Displaying Progress: A dedicated fragment, PointSystemFragment, shows the user's current points and achievement title. The fragment retrieves the user's points from the Firebase database and dynamically updates the UI with the current total and title.  Firebase Integration: The app uses Firebase Authentication to identify each user, ensuring that each user’s points and achievements are tracked uniquely under their ID. Points are updated in real time, making it easy for users to see their progress immediately after a donation.  Overall, this system provides users with visual feedback on their donation milestones, fostering a sense of achievement as they progress through different phases in the app."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.678" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="175dp"
+        android:layout_height="105dp"
+        android:src="@drawable/dtytytydpkjj"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="163dp"
+        android:layout_height="92dp"
+        android:src="@drawable/bkjjfvsfuhzg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959" />
+</androidx.constraintlayout.widget.ConstraintLayout>
